@@ -34,6 +34,7 @@ public class Main {
             scanner.close();
         } catch (FileNotFoundException e) {
             System.err.println(e.getMessage());
+            System.exit(1); //終了ステータス。ここでは取り敢えず0(=正常)以外にした。
         }
 
         // リストをそのまま出力してみる
