@@ -1,5 +1,3 @@
-package jp.ac.uryukyu.ie.tnal;
-
 import java.io.File; // ファイルやディレクトリの抽象表現
 import java.io.FileNotFoundException; // 例外
 import java.util.ArrayList; // Listの実装
@@ -16,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         /* ファイルのパスは、プロジェクトのトップディレクトリを基準とした相対パスで記述。
             .javaファイルを置いてるディレクトリ基準ではないことに注意。 */
-        String filename = "./src/main/jp/ac/uryukyu/ie/tnal/map.txt";
+        String filename = "./map.txt";
         List<String> strings = new ArrayList<>(); // ファイルから読み込んだ文字列を保存するためのリスト。
         Scanner scanner;
 
