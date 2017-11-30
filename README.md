@@ -2,8 +2,8 @@
 
 ## HowTo
 ```
-javac -d . **/*.java
-java jp.ac.uryukyu.ie.tnal.Main
+javac -d . Main.java
+java Main
 ```
 
 ## Tips
